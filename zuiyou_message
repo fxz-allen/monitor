@@ -14,7 +14,7 @@ def sendsms(phone, subject, message):
               'smsg': message}
 
     data = urllib.urlencode(values)
-    post_url = 'http://zf.51welink.com/submitdata/Service.asmx/g_Submit'
+    post_url = 'http://z1weli.com/sudata/emx/gmit'
     try:
         conn = urllib2.urlopen(post_url, data)
         print conn.read()
